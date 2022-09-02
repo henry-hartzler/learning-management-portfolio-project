@@ -1,2 +1,8 @@
-h1 {
-  color: orange; }
+nav {
+  font-size: 1.4rem; }
+
+.col-lg {
+  border: 2px solid blue; }
+
+.container {
+  border: 2px solid yellow; }

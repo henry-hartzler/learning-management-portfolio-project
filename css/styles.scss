@@ -1,5 +1,15 @@
-$primary-color: orange;
+$primary-color: #5bc0de;
+$secondary-color: #292B2C;
+$accent-color: #5BC0DE;
 
-h1 {
-    color: $primary-color;
+nav {
+    font-size: 1.4rem;
+}
+
+.col-lg {
+    border: 2px solid blue;
+}
+
+.container {
+    border: 2px solid yellow;
 }
