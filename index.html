@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
@@ -33,13 +33,13 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contactUs">Contact</a>
           </li>
         </ul>
           <button class="btn btn-success btn-lg"><i class="fa-regular fa-flag text-light"></i> Get Started</button>
@@ -114,11 +114,89 @@
       <div class="container d-flex justify-content-center">
         <div class="row my-3">
           <div class="col my-4">
-            <a href="#"><i class="fa fa-solid fa-circle-chevron-down mx-auto fa-2xl text-white"></i></a>
+            <a href="#contactUs"><i class="fa fa-solid fa-circle-chevron-down mx-auto fa-2xl text-white"></i></a>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="container" id="features">
+
+      <div class="border-0 m-5 p-3">
+        <div class="row no-gutters media text-center shadow rounded">
+          <div class="col-sm-4 align-self-center my-2 my-sm-3 mr-sm-3" >
+            <i class="fa-solid fa-face-laugh-beam fa-5x"></i>
+          </div>
+          <div class="media-body my-2 my-sm-3 " >
+            <h5 class="mt-0">Media heading</h5>
+            <p class="mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-0 m-5 p-3">
+        <div class="row no-gutters media text-center shadow rounded" >
+          <div class="col-sm-4 align-self-center my-2 my-sm-3 mr-sm-3 order-sm-last" >
+            <i class="fa-solid fa-star fa-5x"></i>
+          </div>
+          <div class="media-body my-2 my-sm-3" >
+            <h5 class="mt-0">Media heading</h5>
+            <p class="mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-0 m-5 p-3">
+        <div class="row no-gutters media text-center shadow rounded" >
+          <div class="col-sm-4 align-self-center my-2 my-sm-3 mr-sm-3" >
+            <i class="fa-solid fa-shop fa-5x"></i>
+          </div>
+          <div class="media-body my-2 my-sm-3" >
+            <h5 class="mt-0">Media heading</h5>
+            <p class="mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div id="about" class="card-deck m-5 text-center text-white">
+        <div class="card bg-info p-3">
+          <i class="fa-solid fa-school fa-2xl my-3"></i>
+          <div class="card-body">
+            <h4 class="card-title">Our mission</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card bg-success p-3">
+          <i class="fa-solid fa-eye fa-2xl my-3"></i>
+          <div class="card-body">
+            <h4 class="card-title">Our vision</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card bg-dark p-3">
+          <i class="fa-solid fa-heart fa-2xl my-3"></i>
+          <div class="card-body">
+            <h4 class="card-title">Our values</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark p-3" id="contactUs">
+      <form class="form-inline justify-content-center align-items-start text-center">
+        <div class="form-group my-2">
+          <h2 class="text-white">Want More Information?</h2>
+        </div>
+        <div class="form-group my-2 ml-2 ml-sm-3 mr-2">
+          <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+        </div>
+        <button type="submit" class="btn btn-primary my-2">Request</button>
+      </form>
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
